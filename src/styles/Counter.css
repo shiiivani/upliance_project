@@ -1,0 +1,57 @@
+/* src/Counter.css */
+body {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    /* background-color: #f0f0f0; */
+  }
+  
+  .fill-container {
+    position: absolute;
+    width: 100%;
+    bottom: -300px;
+    background-color: #37FFE7;
+    transition: height 0.5s ease;
+  }
+
+  .counter-display {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    z-index: 1;
+  }
+  
+  .counter-buttons {
+    z-index: 1;
+  }
+  
+  .counter-buttons button {
+    font-size: 1.8rem;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border: none;
+    background-color: #37FFE7; /* Updated background color */
+    border-radius: 3px;
+    font-weight: 300;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .counter-buttons button:hover {
+    background-color: #2fc7b7; /* Darker shade for hover effect */
+    transform: scale(1.05); /* Slightly increase size on hover */
+  }
+  
+  .counter-buttons button:active {
+    background-color: #28a199; /* Even darker shade for active state */
+    transform: scale(0.95); /* Slightly decrease size on click */
+  }
+  
