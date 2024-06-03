@@ -8,9 +8,12 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Counter />} />
-        <Route path="/form" element={<Form />} />
-        <Route path="/textEditor" element={<RichTextEditor />} />
+        <Route path="/upliance_project/" element={<Counter />} />
+        <Route path="/upliance_project/form" element={<Form />} />
+        <Route
+          path="/upliance_project/textEditor"
+          element={<RichTextEditor />}
+        />
       </Routes>
     </Router>
   );
