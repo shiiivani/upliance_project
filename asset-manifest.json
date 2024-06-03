@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/upliance_project/static/css/main.e0b1d708.css",
-    "main.js": "/upliance_project/static/js/main.aecb376c.js",
+    "main.js": "/upliance_project/static/js/main.73797aef.js",
     "static/js/453.1cdea47d.chunk.js": "/upliance_project/static/js/453.1cdea47d.chunk.js",
     "index.html": "/upliance_project/index.html",
     "main.e0b1d708.css.map": "/upliance_project/static/css/main.e0b1d708.css.map",
-    "main.aecb376c.js.map": "/upliance_project/static/js/main.aecb376c.js.map",
+    "main.73797aef.js.map": "/upliance_project/static/js/main.73797aef.js.map",
     "453.1cdea47d.chunk.js.map": "/upliance_project/static/js/453.1cdea47d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0b1d708.css",
-    "static/js/main.aecb376c.js"
+    "static/js/main.73797aef.js"
   ]
 }
