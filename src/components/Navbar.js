@@ -10,18 +10,22 @@ const Navbar = () => {
         <Typography
           variant="h6"
           onClick={() => navigate("/")}
-          to="/"
+          to="/upliance_project/"
           sx={{ flexGrow: 1, textDecoration: "none", color: "inherit" }}
         >
           Counter
         </Typography>
-        <Button to="/form" color="inherit" onClick={() => navigate("/form")}>
+        <Button
+          to="/upliance_project/form"
+          color="inherit"
+          onClick={() => navigate("/form")}
+        >
           Form
         </Button>
         <Button
           to="/textEditor"
           color="inherit"
-          onClick={() => navigate("/textEditor")}
+          onClick={() => navigate("/upliance_project/textEditor")}
         >
           Rich Text Editor
         </Button>
