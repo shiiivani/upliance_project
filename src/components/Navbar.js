@@ -9,7 +9,7 @@ const Navbar = () => {
       <Toolbar>
         <Typography
           variant="h6"
-          onClick={() => navigate("/")}
+          onClick={() => navigate("/upliance_project/")}
           to="/upliance_project/"
           sx={{ flexGrow: 1, textDecoration: "none", color: "inherit" }}
         >
@@ -18,12 +18,12 @@ const Navbar = () => {
         <Button
           to="/upliance_project/form"
           color="inherit"
-          onClick={() => navigate("/form")}
+          onClick={() => navigate("/upliance_project/form")}
         >
           Form
         </Button>
         <Button
-          to="/textEditor"
+          to="/upliance_project/textEditor"
           color="inherit"
           onClick={() => navigate("/upliance_project/textEditor")}
         >
